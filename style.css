@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    color: white;
+    
+}
+.main{
+    height: 644px;
+    background-image: url(assests/back.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* position: relative;
+    z-index: 3; */
+
+}
+nav{
+    display: flex;
+    width: 75vw;
+    height: 12vh;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+.main nav img{
+    height: 40px;
+    position: relative;
+    z-index: 3;
+}
+.button button{
+    position: relative;
+    z-index: 3;
+    width: 73px;
+    height: 30px;
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+    border-radius: 7px;
+    font-family: "Ubuntu", sans-serif;
+  font-weight: 600;
+ 
+
+}
+.box{
+    height: 644px;
+    background-color: black;
+    opacity: 0.69;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    width: -webkit-fill-available;
+
+}
+.hero{
+    position: relative;
+    z-index: 3;
+    /* border: 2px solid yellow; */
+    height: 88vh;
+    width: 75vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Ubuntu", sans-serif;
+    line-height: 60px;
+   
+}
+#para1{
+    font-size:50px;
+    font-weight: 700;
+
+}
+#para2{
+    font-size:30px;
+    font-weight: 200;
+    
+}
+#para3{
+    font-size:19px;
+    font-weight: 200;
+
+}
+.hero input{
+    height: 52px;
+    width: 350px;
+    background-color: rgba(0, 0, 0, 0.479);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.534);
+    padding-left: 20px;
+    font-size: 17px;
+}
+.hero button{
+    background-color: red;
+    color: white;
+    width: 200px;
+    height: 50px;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 25px;
+}
+.line{
+    height: 5px;
+    background-color:rgba(128, 128, 128, 0.658);
+}
+.container1{
+    height: 500px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 48px;
+}
+.box2{
+    display: flex;
+}
+.box2 img{
+    height: 400px;
+}
+.box2 video{
+    position: absolute;
+    width: 390px;
+    top: 785px;
+    left: 835px;
+}
+#tv1{
+    font-size:60px;
+    font-weight: 700;
+   
+}
+#tv2{
+    font-size:27px;
+    
+
+}
+.container2{
+    height: 500px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 48px;
+}
+.box3 img{
+    height: 400px;
+}
+#tv3{
+    font-size:60px;
+    font-weight: 700;
+   
+}
+#tv4{
+    font-size:27px;
+    
+
+}
+.container3{
+    height: 500px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 120px;
+}
+#tv5{
+    font-size:60px;
+    font-weight: 700;
+   
+}
+#tv6{
+    font-size:27px;
+    
+    
+
+}
+.container4{
+    height: 600px;
+    border: 2px solid black;
+    padding: 0px 40px;
+}
+.container4 h1{
+    text-align: center;
+    font-size:55px;
+    font-weight: 700;
+    
+}
+.box11{
+    background-color:rgba(169, 169, 169, 0.274);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    margin-top: 12px;
+}
+.daba{
+    font-size: 20px;
+}
+.plus{
+    font-size: 40px;
+}
+.part{
+    text-align: center;
+    margin-top: 20px;
+    line-height: 50px;
+}
+.part p{
+    font-size: 22px;
+}
+.part input{
+    height: 53px;
+    width: 350px;
+    background-color: rgba(0, 0, 0, 0.479);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.534);
+    padding-left: 20px;
+    font-size: 17px;
+}
+.part button{
+    background-color: red;
+    color: white;
+    width: 200px;
+    height: 50px;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 25px;
+}
+.grid{
+    height: 150px;
+    border: 2px solid black;
+    padding: 20px 40px;
+
+}
+.grid p a{
+    color: white;
+}
+#grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+#copyright{
+    text-align: center;
+}
+    
+
+
